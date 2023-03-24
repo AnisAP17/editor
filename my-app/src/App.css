@@ -1,0 +1,123 @@
+.AppFlex {
+  display: flex;
+}
+/*  */
+.FileBackground {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.838);
+  color: white;
+  border: 1px solid white;
+  min-height: 100vh;
+  min-width: 15vw;
+}
+
+.FilePlus {
+  width:25px;
+  height:25px;
+  cursor: pointer;
+  background:
+    linear-gradient(#fff 0 0),
+    linear-gradient(#fff 0 0),
+    #000;
+  background-position:center;
+  background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+  background-repeat:no-repeat;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 7px;
+}
+
+.FilePlus:hover {
+  width:25px;
+  height:25px;
+  cursor: pointer;
+  background:
+    linear-gradient(rgb(0, 0, 0) 0 0),
+    linear-gradient(rgb(0, 0, 0) 0 0),
+    rgb(255, 255, 255);
+  background-position:center;
+  background-size: 50% 2px,2px 50%; /*thickness = 2px, length = 50% (25px)*/
+  background-repeat:no-repeat;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 7px;
+}
+
+.FileFlex {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid white;
+  width: 20vw;
+}
+
+.FileCreateName {
+  margin-top: 10px;
+}
+/*  */
+.FileBoxBackground {
+  display: flex;
+  justify-content: start;
+  background-color: rgba(0, 0, 0, 0.836);
+  color: white;
+  border: 1px solid white;
+  min-height: 100vh;
+  min-width: 80vw;
+}
+
+.FileListMargin {
+  width: 81vw;
+}
+
+.PlusFlex {
+  display: flex;
+}
+
+.PlusFlex  {
+  display: flex;
+  justify-content: center;
+}
+
+.PlusFlex input {
+  width: 100px;
+  height: 20px; 
+  margin-top: 3px;
+}
+
+.PlusDiv button{
+  font-size: 11px;
+}
+
+.FileText {
+  margin-left: 10px ;
+  font-size: 15px;
+  display: flex;
+  cursor: pointer;
+}
+
+.FileHeaderBackgroundText {
+  display: flex;
+  justify-content: start;
+  background-color: rgba(0, 0, 0, 0.836);
+  color: white;
+  border: 1px solid white;
+  min-height: 93.5vh;
+  min-width: 81vw;
+}
+
+.FileName {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+  background-color: rgba(0, 0, 0, 0.836);
+  color: white;
+}
+
+.FileTrash {
+  margin: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
